@@ -28,7 +28,7 @@ set the working directory to point to the  `UCI HAR Datase` folder
 source('run_analysis.R')
 ```
 
-The final result will be a file called `tidy.csv` .
+The final result will be a file called `tidy.txt` .
 
 ## final tidy dataset
 
