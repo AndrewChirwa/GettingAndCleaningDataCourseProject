@@ -50,4 +50,4 @@ all_data <- cbind(x_data, y_data, subject_data)
 
 averages_data <- ddply(all_data, .(subject, activity), function(x) colMeans(x[,1:66]))
 
-write.csv(averages_data, "tidy.csv", row.names=FALSE)
+write.table(averages_data,"tidy.txt", row.name = FALSE)
