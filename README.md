@@ -3,7 +3,13 @@ Getting and Cleaning Data Course Project
 
 # run_analysis.R
 
-This R script assumes the files have been downloaded and unzippedto appropriate folders and the performs the folling:
+This R script assumes the files have been downloaded from 
+
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+and unzippedto appropriate folders.
+
+Then  running the script will performs the following:
 
 1. Read in the traing and test data sets.
 2. Merge the training and the test sets.
@@ -22,8 +28,8 @@ set the working directory to point to the  `UCI HAR Datase` folder
 source('run_analysis.R')
 ```
 
-The end result will be a file called `tidy_dataset.csv` .
+The final result will be a file called `tidy.csv` .
 
 ## final tidy dataset
 
-Each row in the final, clean dataset contains subject, activity, and measures_ for all required features (i.e., mean or standard deviation).
+Each row in the final, clean dataset contains subject, activity, and measures for all required features (i.e., mean or standard deviation).
